@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Gallery">
+    <meta name="description" content="Awesome photos and images.">
+
+    <!--The tab title of the site -->
+    <title>Gallery</title>
+
+    <!--The required link tags-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <h1 id="title">Gallery</h1>
+        <p id="paragraph">Best 4k photos that will blow your mind<br>Are you interested?</p>
+
+    </div>
+
+
+    <div class="half-background">
+        <div class="bg-button">
+            <button id="main-btn" onclick="showGallery() || showImages() || playRelaxSong() || writeText() || writeTitle()">Yes I am</button>
+        </div>
+
+        <div id="gallery">
+            <div id="left">
+                <img alt="image-left" style="display: none;">
+            </div>
+
+            <div id="right">
+                <img alt="image-right" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <audio id="relaxMusic" src="assets/audio/relax.mp3"></audio>
+
+
+    <!--The required scripts for the site -->
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/type.js"></script>
+
+</body>
+
+</html>
